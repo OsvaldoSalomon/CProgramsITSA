@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
+
 using namespace std;
+
 int main(){
 	float calif1, calif2, calif3, calif4, calif5;
 	float promedio = 0;

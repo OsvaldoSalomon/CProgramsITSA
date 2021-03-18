@@ -6,11 +6,11 @@ int main(){
 	
 	int aNacim, aActual;
 	
-	cout << "Ingrese el año de nacimiento: " << "\n";
+	cout << "Ingrese el anio de nacimiento: " << "\n";
 	
 	cin >> aNacim;
 	
-	cout << "Ingrese el año actual: " << "\n";
+	cout << "Ingrese el anio actual: " << "\n";
 	
 	cin >> aActual;
 	
