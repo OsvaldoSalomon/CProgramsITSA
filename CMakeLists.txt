@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 3.17)
+project(ProgramsCLion)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(AreaCirculo AreaCirculo.cpp)
+add_executable(Porcentaje1 Porcentaje1.cpp)
+add_executable(AreaCirLib2 AreaCirLib2.cpp)
+add_executable(CalcularEdad1 CalcularEdad1.cpp)
+add_executable(CalcularEdad2 CalcularEdad2.cpp)
+add_executable(GetName GetName.cpp)
+add_executable(NumPulsaciones NumPulsaciones.cpp)
+add_executable(NumPulsacionesFloat NumPulsacionesFloat.cpp)
+add_executable(Porcentaje2 Porcentaje2.cpp)
+add_executable(Promedio1 Promedio1.cpp)
+add_executable(Promedio2 Promedio2.cpp)
+add_executable(Suma2 Suma2.cpp)
+add_executable(Suma2UsingCinCout Suma2UsingCinCout.cpp)
