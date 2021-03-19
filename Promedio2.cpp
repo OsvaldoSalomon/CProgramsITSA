@@ -7,7 +7,7 @@ int main() {
     float calif1, calif2, calif3, calif4, calif5;
     float promedio = 0;
 
-    cout << "Ingrese su nombre:" << "\n";
+    cout << "Ingrese su nombre: " << "\n";
     string nombre;
     cin >> nombre;
 
@@ -27,7 +27,14 @@ int main() {
     cin >> calif5;
 
     promedio = (calif1 + calif2 + calif3 + calif4 + calif5) / 5;
+
     cout << "Nombre del alumno: " << nombre << "\n";
-    cout << "Su promedio del primer parcial es: " << promedio;
+    cout << "Su promedio del primer parcial es: " << promedio << "\n";
+
+    if (promedio >= 70) {
+        cout << "El alumno: " << nombre << " esta aprobado";
+    } else if (promedio <= 70){
+        cout << "El alumno: " << nombre << " esta reprobado";
+    }
 }
 //Osvaldo Salomon Vazquez
