@@ -1,7 +1,5 @@
 #include <iostream>
-
 using namespace std;
-
 int main() {
     int noCamisas;
     float precio1, precio2, precio3, suma, total;
@@ -37,3 +35,4 @@ int main() {
         cout << "El precio total con descuento es : " << total << "\n";
     }
 }
+// Osvaldo Salomon Vazquez
