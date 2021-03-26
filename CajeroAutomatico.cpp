@@ -1,26 +1,27 @@
-#include <stdio.h>
+#include <iostream>
+
+using namespace std;
 
 int main() {
 
     int saldo = 15000;
     int opcion, retiro;
     do {
-        printf("----------- BANCO AZTECA -----------\n\n");
-        printf("1.- Consultar saldo inicial\n");
-        printf("2.- Retirar efectivo\n");
-        printf("3.- Salir\n");
-        scanf("%d", &opcion);
+        cout << "----------- BANCOMER -----------" << "\n\n";
+        cout << "1.- Consultar saldo inicial\n";
+        cout << "2.- Retirar efectivo\n";
+        cout << "3.- Salir\n";
+        cin >> opcion;
         switch (opcion) {
             case 1:
-                printf("el saldo inicial es de :%d\n", saldo);
+                cout << "Su saldo inicial es de: " << saldo << "\n";
                 break;
             case 2:
-                printf("Ingrese cantidad a retirar\n");
-                scanf("%d", &retiro);
+                cout << "Ingrese la cantidad a retirar:" << "\n";
+                cin >> retiro;
                 saldo = saldo - retiro;
-                printf("el nuevo saldo es:%d\n", saldo);
+                cout << "el nuevo saldo es: " << saldo << "\n";
                 break;
         }
     } while (opcion != 3);
-
 }
