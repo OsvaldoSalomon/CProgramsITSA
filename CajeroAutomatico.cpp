@@ -25,3 +25,4 @@ int main() {
         }
     } while (opcion != 3);
 }
+//Osvaldo Salomon Vazquez
