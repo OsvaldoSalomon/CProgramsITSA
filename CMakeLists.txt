@@ -32,4 +32,6 @@ add_executable(CajeroAutomatico CajeroAutomatico.cpp)
 add_executable(NumerosPares NumerosPares.cpp)
 add_executable(TablaMultiplicar TablaMultiplicar.cpp)
 add_executable(Heladeria Heladeria.cpp)
-add_executable(HeladeriaMetodo HeladeriaMetodo.cpp)
+
+add_executable(NumerosPositivos NumerosPositivos.cpp)
+add_executable(NumeroMayor NumeroMayor.cpp)
