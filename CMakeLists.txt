@@ -35,3 +35,4 @@ add_executable(Heladeria Heladeria.cpp)
 
 add_executable(NumerosPositivos NumerosPositivos.cpp)
 add_executable(NumeroMayor NumeroMayor.cpp)
+add_executable(ArraysExample ArraysExample.cpp)
