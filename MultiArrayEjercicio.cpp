@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 int main() {
@@ -17,7 +16,6 @@ int main() {
             cin >> nums[i][j];
         }
     }
-
     for (int i = 0; i < f; ++i) {
         for (int j = 0; j < c; ++j) {
             cout << "nums[" << i << "][" << j << "] = " << nums[i][j] << endl;
