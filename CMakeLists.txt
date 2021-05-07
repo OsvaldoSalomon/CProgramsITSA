@@ -45,5 +45,6 @@ add_executable(ArrayParesImpares ArrayParesImpares.cpp)
 add_executable(MultiArrayEjercicio MultiArrayEjercicio.cpp)
 add_executable(MultidimArrayEjer1 MultidimArrayEjer1.cpp)
 add_executable(MultidimArrayEjer2 MultidimArrayEjer2.cpp)
-
 add_executable(SumaMatrices SumaMatrices.cpp)
+add_executable(MatricesMenu MatricesMenu.cpp)
+add_executable(MatricesMenu2 MatricesMenu2.cpp)

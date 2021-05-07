@@ -2,13 +2,13 @@
 using namespace std;
 
 int main() {
-    int f = 1, c = 1;
-    int nums[f][c];
+    int f = 0, c = 0;
 
     cout << "Ingrese el numero de filas:" << endl;
     cin >> f;
     cout << "Ingrese el numero de columnas:" << endl;
     cin >> c;
+    int nums[f][c];
 
     for (int i = 0; i < f; ++i) {
         for (int j = 0; j < c; ++j) {
@@ -21,5 +21,6 @@ int main() {
             cout << "nums[" << i << "][" << j << "] = " << nums[i][j] << endl;
         }
     }
+
 }
 // Osvaldo Salomon Vazquez
