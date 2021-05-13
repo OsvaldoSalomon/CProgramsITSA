@@ -8,12 +8,10 @@ int main() {
 
     for (int i = 0; i < 30; ++i) {
         if (arrayMayorOSV[i] > mayor) {
-            cout << mayor << " < " << arrayMayorOSV[i] << " | ";
+            cout << mayor << " < " << arrayMayorOSV[i] << endl;
             mayor = arrayMayorOSV[i];
-            cout << "El no. mayor es: " << mayor << endl;
         } else {
-            cout << mayor << " > " << arrayMayorOSV[i] << " | ";
-            cout << "El no. mayor es: " << mayor << endl;
+            cout << mayor << " > " << arrayMayorOSV[i] << endl;
         }
     }
     cout << "El numero mayor es: " << mayor;

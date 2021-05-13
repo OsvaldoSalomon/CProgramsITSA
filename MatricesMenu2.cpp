@@ -26,6 +26,7 @@ int main() {
         int matriz1OSV[f][c];
         int matriz2OSV[f][c];
 
+        // Ingresar valores de matriz 1
         cout << "Ingrese los valores de la primera matriz" << endl;
         for (int i = 0; i < f; ++i) {
             for (int j = 0; j < c; ++j) {
@@ -33,12 +34,14 @@ int main() {
                 cin >> matriz1OSV[i][j];
             }
         }
+        // Imprimir matriz 1
         for (int i = 0; i < f; ++i) {
             for (int j = 0; j < c; ++j) {
                 cout << "matriz1OSV[" << i << "][" << j << "] = " << matriz1OSV[i][j] << endl;
             }
         }
 
+        // Ingresar valores de matriz 2
         cout << "Ingrese los valores de la segunda matriz" << endl;
         for (int i = 0; i < f; ++i) {
             for (int j = 0; j < c; ++j) {
@@ -46,6 +49,7 @@ int main() {
                 cin >> matriz2OSV[i][j];
             }
         }
+        // Imprimir matriz 2
         for (int i = 0; i < f; ++i) {
             for (int j = 0; j < c; ++j) {
                 cout << "matriz2OSV[" << i << "][" << j << "] = " << matriz2OSV[i][j] << endl;
