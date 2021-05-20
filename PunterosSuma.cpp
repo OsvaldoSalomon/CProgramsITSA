@@ -13,12 +13,14 @@ int main() {
     dirSuma = &suma;
 
     *dirSuma = *dirNum1 + *dirNum2;
-    cout << "dirSuma = " << dirSuma << endl;
     cout << "*dirSuma = " << *dirSuma << endl;
-    cout << "dirNum1 = " << dirNum1 << endl;
+    cout << "dirSuma = " << dirSuma << endl;
+    cout << "------------" << endl;
     cout << "*dirNum1 = " << *dirNum1 << endl;
-    cout << "dirNum2 = " << dirNum2 << endl;
+    cout << "dirNum1 = " << dirNum1 << endl;
+    cout << "------------" << endl;
     cout << "*dirNum2 = " << *dirNum2 << endl;
+    cout << "dirNum2 = " << dirNum2 << endl;
 
 }
 //Osvaldo Salomon Vazquez
